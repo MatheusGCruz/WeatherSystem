@@ -53,7 +53,7 @@ using (var scope = builder.Services.CreateScope())
     var jobService = scope.ServiceProvider.GetRequiredService<JobService>();
     
     // Schedule the job to run every minute
-    RecurringJob.AddOrUpdate("fetch-api-job", () => jobService.FetchAndSaveDataAsync(), Cron.Minutely);
+    RecurringJob.AddOrUpdate("fetch-api-job", () => jobService.FetchAndSaveDataAsync(), Cron.Hourly);
 }
 
 await builder.RunAsync();
