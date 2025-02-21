@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "GMz9mBLiJ05Gv0Qgt+oHhx3IMwjvu4HF4piYXaqD05o=",
+  "Source": "WeatherSystem-WebServer",
+  "BasePath": "_content/WeatherSystem-WebServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
