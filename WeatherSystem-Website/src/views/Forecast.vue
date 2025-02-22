@@ -112,7 +112,7 @@ export default defineComponent({
 
 <style scoped>
 .forecasts{
-  background-image: url('./src/assets/polished.png');
+  background-image: url('/polished.png');
   background-size: 100% auto;
   padding: 1%;
   margin:2px;

@@ -65,7 +65,7 @@ h1 {
   top: -10px;
   text-align: center;
   color: navy;
-  background-image: url('./src/assets/steel.jfif');
+  background-image: url('/steel.jfif');
   background-size: 100% auto;
 }
 
@@ -73,7 +73,7 @@ h3 {
   font-size: 1.2rem;
 }
 .greetings{
-  background-image: url('./src/assets/rust.jpg');
+  background-image: url('/rust.jpg');
   background-size: 100% auto;
   margin:2px;
   border-radius: 20px;
@@ -82,7 +82,7 @@ h3 {
 .greetings h1 {
   text-align: center;
   color: navy;
-  background-image: url('./src/assets/steel.jiff');
+  background-image: url('/steel.jfif');
   background-size: 100% auto;
 }
 .greetings h3 {
