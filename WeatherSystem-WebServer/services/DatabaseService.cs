@@ -21,7 +21,10 @@ public class DatabaseService
         return _dbContext.Forecasts.Where(c => c.city == city && c.date >= DateTime.UtcNow.Date).ToList();
     }
 
-        public async Task SaveCurrentConditionAsync(CurrentCondition newCurrentCondition)
+    public List<Hourly> hourlies(){
+        return _dbContext.Hourlies.ToList();
+    }
+    public async Task SaveCurrentConditionAsync(CurrentCondition newCurrentCondition)
     {
         try
         {

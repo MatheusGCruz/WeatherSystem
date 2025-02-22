@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeatherSystem-HangfireWorker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa873a7c6da499e52d660567efd4166d39fc548a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78e7067ac759ec3aa0aeeca7c9606a57dd9dd0ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeatherSystem-HangfireWorker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeatherSystem-HangfireWorker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

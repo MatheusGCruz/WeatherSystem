@@ -68,4 +68,15 @@ public class WeatherForecastController : ControllerBase
 
         return [];
     }
+
+    [HttpGet("analytics")]
+    public List<Hourly> GetHourlies()
+    {
+        List<Hourly> hourlies = _databaseService.hourlies();
+        if(hourlies != null){
+            return hourlies;
+        }
+
+        return [];
+    }
 }
